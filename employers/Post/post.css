@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav1 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  
+  #nav1 #nav_rigth{
+    font-size : x-large;
+  }
+  
+  #nav1 #nav_rigth i{
+    padding: 10px;
+  }
+  
+  #nav1 #nav_rigth i:hover{
+    cursor: pointer;
+  }
+
+  #body{
+    height: 90%;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container{
+    height: 90%;
+    width: 48%;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  #insert{
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
