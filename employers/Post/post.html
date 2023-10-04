@@ -28,7 +28,7 @@
           <h1>Job Details</h1>
           <p>Fill Down the details</p>
         </div>
-        <div id="insert">
+        <div class="insert">
           <form>
             <div class="form-group">
               <label for="jobTitle">Job Title:</label>
@@ -64,8 +64,61 @@
             </div>
           </form>
         </div>
+        <div class="insert">
+          <h2>Category Selection</h2>
+          <p>Please select a category:</p>
+          <form>
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+              <option value="ui-design">UI Design</option>
+              <option value="web-development">Web Development</option>
+            </select>
+            <br />
+            <h2 class="description-title">Description:</h2>
+            <input
+              type="text"
+              id="catogory_Description"
+              name="catogory_Description"
+              placeholder="Enter job Description"
+              required
+            />
+          </form>
+        </div>
       </div>
-      <div class="container"></div>
+      <div class="container">
+        <div id="Qualifications">
+          <h1>Qualifications</h1>
+          <p>Fill Down the details</p>
+        </div>
+        <div class="insert">
+          <form>
+            <div class="form-group">
+              <label for="Required_skills">Required_skills:</label>
+              <input
+                type="text"
+                id="Required_skills"
+                name="Required_skills"
+                placeholder="Enter job Required_skills"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="Education_level">Job Education_level:</label>
+              <input
+                type="text"
+                id="Education_level"
+                name="Education_level"
+                placeholder="Enter job Education_level"
+                required
+              />
+            </div>
+          </form>
+          <div id="submit_button">
+            <button type="submit" class="submit-button">Submit</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
